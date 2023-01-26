@@ -3,10 +3,15 @@ import { Routes, RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from './page/page-not-found/page-not-found.component';
 
 const routes: Routes = [
+  // {
+  //   path: 'landing',
+  //   loadChildren: () => import('./page/landing/landing.module').then(m => m.LandingModule)
+  // },
   {
-    path: 'landing',
-    loadChildren: () => import('./page/landing/landing.module').then(m => m.LandingModule)},
-  { path: '', redirectTo: '/landing', pathMatch: 'full'  },
+    path: 'news',
+    loadChildren: () => import('./page/news/news.module').then(m => m.NewsModule)
+  },
+  { path: '', redirectTo: '/news', pathMatch: 'full' },
   // { path: '**', component: PageNotFoundComponent }
 ];
 
