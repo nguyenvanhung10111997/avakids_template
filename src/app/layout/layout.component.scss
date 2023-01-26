@@ -1,0 +1,10 @@
+header{
+    transition: all 500ms ease;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}

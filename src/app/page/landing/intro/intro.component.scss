@@ -1,0 +1,121 @@
+#flashsale-wrap{
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    padding-top: 42px;
+    background-size: 49%;
+}
+#flashsale-timer-wrap{
+   position: relative;
+   text-align:center;
+}
+
+#flashsale-wrap h2{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 119.8%;
+    color: #1DC04B;
+    margin-bottom: 32px;
+}
+#flashsale-wrap h2:after{
+    margin-top:10px;
+    content: "";
+    width: 118.88px;
+    height: 6px;
+    background: #1DC04B;
+    border-radius: 27px;
+    display: block;
+    margin-left: calc( 100% / 2 - 60px )
+}
+
+#flashsale-timer ul{
+    display: flex;
+    list-style: none;
+    padding: 20px 0;
+    margin-bottom: 0;
+    justify-content: center;
+}
+#flashsale-timer ul div{
+   display: inline-block;
+}
+#flashsale-timer ul strong{
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #151515;
+    font-weight: 400;
+}
+
+#flashsale-timer ul li{
+  margin-right: 15px;
+}
+#flashsale-timer ul li:last-child{
+    margin-right: 0
+}
+
+#flashsale-timer span{
+    background: #00352E;
+    border-radius: 4px;
+    color: #FFF;
+    padding: 5px 10px;
+    font-size: 24px;
+    font-weight: 600;
+    display: inline-block;
+    width: 54px;
+    background: #FFB939;
+    border-radius: 4px;
+    text-align:center;
+}
+.flash-sale-btn-wrap{
+  
+}
+
+@media (min-width: 768px){
+    #flashsale-wrap{
+        padding-bottom: 100px;
+    }
+    #flashsale-timer-wrap{
+        text-align: left;
+    }
+    #flashsale-wrap h2{
+        font-size: 48px;
+    }
+    #flashsale-wrap h2:after{
+        margin-left: 0
+    }
+    #flashsale-timer ul{
+        justify-content: start;
+    }
+    #flashsale-timer ul li{
+        margin-right: 30px;
+    }
+    #flashsale-timer span{
+        width: 78px;
+        font-size: 26px;
+    }
+    #flashsale-timer ul strong{
+        font-size: 16px;
+    }
+}
+@media (min-width: 992px){
+
+}
+@media (min-width: 1200px){
+    #flashsale-wrap{
+        background-size: 49%;
+    }
+}
+@media (min-width: 1600px){
+    #flashsale-wrap{
+        background-size: 40%;
+    }
+}
+
+@media (max-width: 575.98px){
+    #flashsale-wrap{
+        background-image: none !important;
+    }
+}
